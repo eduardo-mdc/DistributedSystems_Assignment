@@ -1,0 +1,8 @@
+package peer;
+option java_package = "com.proto.peer";
+option java_multiple_files = true;
+import "peer/getToken.proto";
+
+service PeerService {
+  rpc getToken(TokenRequest) returns(TokenResponse);
+}

@@ -5,11 +5,25 @@ import io.grpc.stub.StreamObserver;
 
 
 public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBase {
+    Boolean token = false;
+
     @Override
-    public void getToken(TokenRequest request, StreamObserver < TokenResponse > responseObserver) {
-        responseObserver.onNext(TokenResponse.newBuilder().setResult(
-                true
+    public void getToken(EmptyRequest request, StreamObserver < GetTokenResponse > responseObserver) {
+        responseObserver.onNext(GetTokenResponse.newBuilder().setResult(
+                token
         ).build());
         responseObserver.onCompleted();
     }
+
+    @Override
+    public void setToken(SetTokenRequest request, StreamObserver < SetTokenResponse > responseObserver) {
+        token = request.getToken(); // Change this to obtain request value.
+        responseObserver.onNext(SetTokenResponse.newBuilder().setResult(
+                token
+        ).build());
+        responseObserver.onCompleted();
+    }
+
+
+
 }

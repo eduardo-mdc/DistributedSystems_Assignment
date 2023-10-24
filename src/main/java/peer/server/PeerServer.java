@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import peer.Peer;
+import peer.SocketIdentifier;
 
 import java.io.IOException;
 
@@ -12,11 +13,11 @@ public class PeerServer implements Runnable{
     String host;
     int port;
     Logger logger;
-    Server server;
 
-    public PeerServer(String host, int port, Logger logger) throws Exception {
-        this.host = host;
-        this.port = port;
+
+    public PeerServer(SocketIdentifier server, Logger logger) throws Exception {
+        this.host = server.getHost();
+        this.port = server.getPort();
         this.logger = logger;
 
     }

@@ -1,10 +1,8 @@
-import com.proto.peer.PeerServiceGrpc;
-import com.proto.peer.SetTokenRequest;
-import com.proto.peer.SetTokenResponse;
 import io.grpc.ManagedChannel;
-import io.grpc.ManagedChannelBuilder;
 import peer.Peer;
 import peer.SocketIdentifier;
+import peer.utils.Grpc;
+import peer.utils.Requester;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,18 +17,6 @@ public class PeerGenerator {
         return socketList;
     }
 
-    private static ManagedChannel createChannel(SocketIdentifier server) {
-        return ManagedChannelBuilder.forAddress(server.getHost(), server.getPort())
-                .usePlaintext()
-                .build();
-    }
-
-    private static void set_token(ManagedChannel channel, Boolean tokenValue) {
-        PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
-        SetTokenResponse response = stub.setToken(SetTokenRequest.newBuilder()
-                .setToken(tokenValue)
-                .build());
-    }
     public static void main(String[] args) throws InterruptedException {
         List<SocketIdentifier> socketList = generateSocketList();
 
@@ -46,8 +32,7 @@ public class PeerGenerator {
         }
 
         //Set token to true in the first peer in the list
-        ManagedChannel channel = createChannel(socketList.get(0));
-        set_token(channel, true);
+        Requester.setTokenRequest(socketList.get(0), true);
 
         System.out.println("Token set to true in peer at port " + socketList.get(0).getPort() + "\n");
     }

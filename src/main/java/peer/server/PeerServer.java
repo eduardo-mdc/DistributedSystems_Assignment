@@ -29,7 +29,7 @@ public class PeerServer implements Runnable{
     public void run() {
         try {
             logger.info("server: endpoint running at port " + currentPeerServer.getPort() + " ...");
-            Server server = ServerBuilder.forPort(currentPeerServer.getPort()).addService(new PeerServerImplementation(nextPeer,logger)).build();
+            Server server = ServerBuilder.forPort(currentPeerServer.getPort()).addService(new PeerServerImplementation(currentPeerServer,nextPeer,logger)).build();
             server.start();
             System.out.println("server started. Listening on port : " + currentPeerServer.getPort());
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {

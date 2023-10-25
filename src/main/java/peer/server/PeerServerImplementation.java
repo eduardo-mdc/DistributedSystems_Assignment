@@ -1,6 +1,7 @@
 package peer.server;
 import com.proto.peer.*;
 import com.proto.peer.PeerServiceGrpc;
+import io.grpc.ManagedChannel;
 import io.grpc.stub.StreamObserver;
 
 import java.util.LinkedList;
@@ -9,6 +10,7 @@ import java.util.logging.Logger;
 
 import com.google.protobuf.Empty;
 import peer.SocketIdentifier;
+import peer.utils.Requester;
 
 
 public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBase {
@@ -17,34 +19,32 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
 
     String serverName = "server_name";
     SocketIdentifier nextPeer;
+    SocketIdentifier currentPeerServer;
     Logger logger;
 
-    public PeerServerImplementation(SocketIdentifier nextPeer, Logger logger) {
+    public PeerServerImplementation(SocketIdentifier currentPeerServer, SocketIdentifier nextPeer, Logger logger) {
         this.nextPeer = nextPeer;
         this.logger = logger;
+        this.currentPeerServer = currentPeerServer;
     }
 
     @Override
-    public void getToken(EmptyRequest request, StreamObserver < GetTokenResponse > responseObserver) {
-
-        responseObserver.onNext(GetTokenResponse.newBuilder().setResult(
-                token
-        ).build());
-        responseObserver.onCompleted();
-    }
-
-    @Override
-    public void setToken(SetTokenRequest request, StreamObserver < SetTokenResponse > responseObserver) {
+    public void setToken(SetTokenRequest request, StreamObserver < Empty > responseObserver) {
         // Change this to obtain the request value.
         final boolean newToken = request.getToken();
 
         token = newToken;
-        logger.info("- PEER SERVER: Got token with value <" + newToken + ">");
+        //logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Got token with value <" + newToken + ">");
 
-        processCommandQueue();
+        if (token){
+            processCommandQueue();
+            Requester.setTokenRequest(nextPeer, true);
+        }
+
+        token = false;
 
         // Respond to the gRPC request.
-        responseObserver.onNext(SetTokenResponse.newBuilder().setResult(newToken).build());
+        responseObserver.onNext(Empty.getDefaultInstance());
         responseObserver.onCompleted();
     }
 
@@ -60,7 +60,7 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
                 logger.info("- PEER SERVER (RESPONSE): Hello " + peerName + ",I am " + serverName);
             }
         };
-        //logger.info("- PEER SERVER: Received hello job request");
+        logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Received hello job request");
 
         // Add the task to the command queue.
         CommandQueue.offer(printPeerNameTask);
@@ -71,14 +71,13 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
 
     // You can have a method to process the command queue in your class.
     public void processCommandQueue() {
-        if (CommandQueue.isEmpty()) {
-            logger.info("- PEER SERVER: Command queue is empty.");
-            return;
-        }
-        logger.info("- PEER SERVER: Processing command queue.");
-        while (!CommandQueue.isEmpty()) {
-            Runnable task = CommandQueue.poll();
-            task.run();
+        if (!CommandQueue.isEmpty()) {
+            logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">: Started Processing command queue.");
+            while (!CommandQueue.isEmpty()) {
+                Runnable task = CommandQueue.poll();
+                task.run();
+            }
+            logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Finished Processing command queue.");
         }
     }
 

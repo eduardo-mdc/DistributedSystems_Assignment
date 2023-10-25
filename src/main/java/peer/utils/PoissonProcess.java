@@ -1,4 +1,4 @@
-package peer.customUtils;
+package peer.utils;
 
 import java.util.Random;
 

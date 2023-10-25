@@ -3,9 +3,12 @@ option java_package = "com.proto.peer";
 option java_multiple_files = true;
 import "peer/getToken.proto";
 import "peer/setToken.proto";
+import "peer/hello.proto";
 import "peer/empty.proto";
+import "google/protobuf/empty.proto";
 
 service PeerService {
   rpc getToken(EmptyRequest) returns(GetTokenResponse);
   rpc setToken(SetTokenRequest) returns(SetTokenResponse);
+  rpc sendHello(HelloRequest) returns (google.protobuf.Empty);
 }

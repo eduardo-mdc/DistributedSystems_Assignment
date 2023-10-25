@@ -40,7 +40,7 @@ public class Peer {
     public void start(){
         try {
             System.out.printf("new peer @ host=%s:%s\n", currentPeerServer.getHost(), currentPeerServer.getPort());
-            new Thread(new PeerServer(currentPeerServer,logger)).start();
+            new Thread(new PeerServer(currentPeerServer,nextPeerServer,centralServer,logger)).start();
             new Thread(new PeerClient(currentPeerServer,nextPeerServer,centralServer,logger)).start();
         } catch ( Exception e ) {
             e.printStackTrace();

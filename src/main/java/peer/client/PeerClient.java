@@ -11,7 +11,7 @@ import peer.customUtils.PoissonProcess;
 
 public class PeerClient implements Runnable{
     Logger logger;
-    String command = "set_token true";
+    Integer command = 0;
     //defines on average, how many events happen per minute.
     static final int lambda = 5;
 
@@ -41,6 +41,24 @@ public class PeerClient implements Runnable{
               .build());
         logger.info("SET TOKEN : " + response.getResult());
     }
+
+    private void addHelloJob(ManagedChannel channel, Integer peerPort) {
+        PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
+        HelloRequest request = HelloRequest.newBuilder()
+                .setPeerName(peerPort.toString())
+                .build();
+
+        stub.sendHello(request);
+        // Since there's no response data, you may want to log that the operation was successful.
+        logger.info("- PEER CLIENT: Hello message sent to peer server");
+    }
+
+    private ManagedChannel createChannel(SocketIdentifier server) {
+        return ManagedChannelBuilder.forAddress(server.getHost(), server.getPort())
+                .usePlaintext()
+                .build();
+    }
+
     @Override
     public void run() {
         logger.info("client: endpoint running ...\n");
@@ -51,26 +69,17 @@ public class PeerClient implements Runnable{
                 System.out.println("next event in -> " + (int)time + " ms");
                 Thread.sleep((int)time);
 
-                ManagedChannel channel = ManagedChannelBuilder.forAddress(nextPeerServer.getHost(), nextPeerServer.getPort())
-                        .usePlaintext()
-                        .build();
-
+                ManagedChannel channel = createChannel(currentPeerServer);
 
                 switch (command) {
-                    case "set_token false":
-                        set_token(channel, false);
-                        break;
-                    case "set_token true":
-                        set_token(channel, true);
-                    case "get_token":
-                        getToken(channel);
-                        break;
-                    default:
-                        System.out.println("invalid keyword");
+                    case 0:
+                        addHelloJob(channel, currentPeerServer.getPort());
                         break;
                 }
 
-                } catch (InterruptedException e) {
+
+
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }

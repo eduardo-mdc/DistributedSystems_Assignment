@@ -210,3 +210,59 @@ Oct 24, 2023 5:40:59 PM peer.client.PeerClient set_token
 INFO: SET TOKEN : true
 Oct 24, 2023 5:40:59 PM peer.client.PeerClient getToken
 INFO: GOT TOKEN : true
+Oct 25, 2023 12:04:18 PM peer.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 25, 2023 12:04:18 PM peer.server.PeerServer run
+INFO: server: endpoint running at port 5001 ...
+Oct 25, 2023 12:05:00 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 12:07:58 PM peer.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 25, 2023 12:07:58 PM peer.server.PeerServer run
+INFO: server: endpoint running at port 5001 ...
+Oct 25, 2023 12:08:03 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 12:08:04 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 12:10:20 PM peer.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 25, 2023 12:10:20 PM peer.server.PeerServer run
+INFO: server: endpoint running at port 5001 ...
+Oct 25, 2023 12:10:37 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:17:32 PM peer.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 25, 2023 6:17:32 PM peer.server.PeerServer run
+INFO: server: endpoint running at port 5001 ...
+Oct 25, 2023 6:17:56 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:17:59 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:18:14 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:18:30 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:18:36 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:27:29 PM peer.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 25, 2023 6:27:29 PM peer.server.PeerServer run
+INFO: server: endpoint running at port 0 ...
+Oct 25, 2023 6:30:42 PM peer.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 25, 2023 6:30:42 PM peer.server.PeerServer run
+INFO: server: endpoint running at port 5001 ...
+Oct 25, 2023 6:30:53 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:30:55 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:31:11 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 25, 2023 6:31:15 PM peer.client.PeerClient addHelloJob
+INFO: - PEER CLIENT: Hello message sent to peer server

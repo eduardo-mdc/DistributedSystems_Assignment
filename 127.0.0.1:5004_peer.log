@@ -1,0 +1,52 @@
+Oct 27, 2023 7:15:18 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5004 ...
+Oct 27, 2023 7:15:18 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:15:48 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (sub) job request
+Oct 27, 2023 7:15:48 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:15:51 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (mul) job request
+Oct 27, 2023 7:15:51 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:15:58 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (sub) job request
+Oct 27, 2023 7:15:58 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:19:03 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5004 ...
+Oct 27, 2023 7:19:03 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:06 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (mul) job request
+Oct 27, 2023 7:19:06 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:19:25 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5004 ...
+Oct 27, 2023 7:19:25 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:31 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (mul) job request
+Oct 27, 2023 7:19:31 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:19:43 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5004 ...
+Oct 27, 2023 7:19:43 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:46 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (sub) job request
+Oct 27, 2023 7:19:46 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:19:48 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (div) job request
+Oct 27, 2023 7:19:48 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+Oct 27, 2023 7:20:03 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5004>:  Received algebra (sub) job request
+Oct 27, 2023 7:20:03 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server

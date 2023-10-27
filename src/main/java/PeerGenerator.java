@@ -1,24 +1,21 @@
-import io.grpc.ManagedChannel;
-import peer.Peer;
-import peer.SocketIdentifier;
-import peer.utils.Grpc;
-import peer.utils.Requester;
+import ring.Peer;
+import ring.PortMapper;
+import ring.SocketIdentifier;
+import ring.central.CentralServer;
+import ring.server.PeerServer;
+import ring.utils.Requester;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PeerGenerator {
+    public static void main(String[] args){
+        PortMapper portMapper = new PortMapper();
+        List<SocketIdentifier> socketList = portMapper.generateSocketList("127.0.0.1");
 
+        SocketIdentifier centralServer = new SocketIdentifier("127.0.0.1", 8000);
 
-    private static List<SocketIdentifier> generateSocketList() {
-        List<SocketIdentifier> socketList = new ArrayList<>();
-        socketList.add(new SocketIdentifier("127.0.0.1", 5000));
-        socketList.add(new SocketIdentifier("127.0.0.1", 5001));
-        return socketList;
-    }
-
-    public static void main(String[] args) throws InterruptedException {
-        List<SocketIdentifier> socketList = generateSocketList();
+        new Thread(new CentralServer(centralServer)).start();
 
         for(SocketIdentifier socketId : socketList){
             Peer peer = new Peer(socketId.getHost(), socketId.getPort());
@@ -33,7 +30,6 @@ public class PeerGenerator {
 
         //Set token to true in the first peer in the list
         Requester.setTokenRequest(socketList.get(0), true);
-
         System.out.println("Token set to true in peer at port " + socketList.get(0).getPort() + "\n");
     }
 }

@@ -1,0 +1,64 @@
+Oct 27, 2023 7:15:18 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5002 ...
+Oct 27, 2023 7:15:18 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:15:19 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
+Oct 27, 2023 7:15:19 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:15:19 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5002>: Started Processing command queue.
+Oct 27, 2023 7:15:30 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
+Oct 27, 2023 7:15:30 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:15:45 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
+Oct 27, 2023 7:15:45 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:15:46 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
+Oct 27, 2023 7:15:46 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:15:47 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
+Oct 27, 2023 7:15:47 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:15:51 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
+Oct 27, 2023 7:15:51 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:16:02 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
+Oct 27, 2023 7:16:02 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:19:03 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5002 ...
+Oct 27, 2023 7:19:03 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:03 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
+Oct 27, 2023 7:19:03 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:19:04 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5002>: Started Processing command queue.
+Oct 27, 2023 7:19:04 PM ring.server.PeerServerImplementation lambda$sendAlgebra$1
+INFO: - PEER SERVER (RESPONSE) : -405.4394662334224
+Oct 27, 2023 7:19:04 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5002>:  Finished Processing command queue.
+Oct 27, 2023 7:19:25 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5002 ...
+Oct 27, 2023 7:19:25 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:43 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5002 ...
+Oct 27, 2023 7:19:43 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:52 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
+Oct 27, 2023 7:19:52 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server

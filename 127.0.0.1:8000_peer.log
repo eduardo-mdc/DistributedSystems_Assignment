@@ -1,0 +1,48 @@
+Oct 26, 2023 2:56:25 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Oct 26, 2023 3:33:13 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Oct 26, 2023 3:33:21 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5001
+Oct 26, 2023 3:33:23 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5000
+Oct 26, 2023 3:33:31 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5001
+Oct 26, 2023 3:33:32 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5000
+Oct 26, 2023 3:33:35 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5000
+Oct 26, 2023 3:33:36 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5001
+Oct 26, 2023 3:33:37 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5001
+Oct 26, 2023 3:33:38 PM ring.server.CentralServerImplementation processHello
+INFO: Received Hello from: 5000
+Oct 27, 2023 3:47:07 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Oct 27, 2023 3:47:09 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5001
+Oct 27, 2023 3:47:13 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5001
+Oct 27, 2023 3:47:18 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5000
+Oct 27, 2023 3:47:19 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5001
+Oct 27, 2023 3:47:23 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5001
+Oct 27, 2023 3:47:25 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5001
+Oct 27, 2023 3:47:26 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5000
+Oct 27, 2023 3:47:36 PM ring.server.CentralServerImplementation processHello
+INFO: - CENTRAL SERVER : Received Hello from: 5001
+Oct 27, 2023 7:10:45 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Oct 27, 2023 7:15:18 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Oct 27, 2023 7:19:03 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Oct 27, 2023 7:19:25 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Oct 27, 2023 7:19:43 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...

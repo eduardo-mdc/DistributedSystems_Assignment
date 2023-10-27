@@ -1,55 +1,362 @@
-Oct 25, 2023 7:17:50 PM peer.client.PeerClient run
+Oct 25, 2023 7:17:50 PM ring.client.PeerClient run
 INFO: client: endpoint running ...
 
-Oct 25, 2023 7:17:50 PM peer.server.PeerServer run
+Oct 25, 2023 7:17:50 PM ring.server.PeerServer run
 INFO: server: endpoint running at port 5000 ...
-Oct 25, 2023 7:17:58 PM peer.server.PeerServerImplementation sendHello
+Oct 25, 2023 7:17:58 PM ring.server.PeerServerImplementation sendHello
 INFO: - PEER SERVER <5000>:  Received hello job request
-Oct 25, 2023 7:17:58 PM peer.client.PeerClient run
-INFO: - PEER CLIENT: Hello message sent to peer server
-Oct 25, 2023 7:17:58 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:17:58 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 25, 2023 7:17:58 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>: Started Processing command queue.
-Oct 25, 2023 7:17:58 PM peer.server.PeerServerImplementation$1 run
+Oct 25, 2023 7:17:58 PM ring.server.PeerServerImplementation$1 run
 INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
-Oct 25, 2023 7:17:58 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:17:58 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>:  Finished Processing command queue.
-Oct 25, 2023 7:18:05 PM peer.server.PeerServerImplementation sendHello
+Oct 25, 2023 7:18:05 PM ring.server.PeerServerImplementation sendHello
 INFO: - PEER SERVER <5000>:  Received hello job request
-Oct 25, 2023 7:18:05 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:05 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>: Started Processing command queue.
-Oct 25, 2023 7:18:05 PM peer.client.PeerClient run
-INFO: - PEER CLIENT: Hello message sent to peer server
-Oct 25, 2023 7:18:05 PM peer.server.PeerServerImplementation$1 run
+Oct 25, 2023 7:18:05 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 25, 2023 7:18:05 PM ring.server.PeerServerImplementation$1 run
 INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
-Oct 25, 2023 7:18:05 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:05 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>:  Finished Processing command queue.
-Oct 25, 2023 7:18:29 PM peer.server.PeerServerImplementation sendHello
+Oct 25, 2023 7:18:29 PM ring.server.PeerServerImplementation sendHello
 INFO: - PEER SERVER <5000>:  Received hello job request
-Oct 25, 2023 7:18:29 PM peer.client.PeerClient run
-INFO: - PEER CLIENT: Hello message sent to peer server
-Oct 25, 2023 7:18:29 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:29 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 25, 2023 7:18:29 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>: Started Processing command queue.
-Oct 25, 2023 7:18:29 PM peer.server.PeerServerImplementation$1 run
+Oct 25, 2023 7:18:29 PM ring.server.PeerServerImplementation$1 run
 INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
-Oct 25, 2023 7:18:29 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:29 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>:  Finished Processing command queue.
-Oct 25, 2023 7:18:34 PM peer.server.PeerServerImplementation sendHello
+Oct 25, 2023 7:18:34 PM ring.server.PeerServerImplementation sendHello
 INFO: - PEER SERVER <5000>:  Received hello job request
-Oct 25, 2023 7:18:34 PM peer.client.PeerClient run
-INFO: - PEER CLIENT: Hello message sent to peer server
-Oct 25, 2023 7:18:34 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:34 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 25, 2023 7:18:34 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>: Started Processing command queue.
-Oct 25, 2023 7:18:34 PM peer.server.PeerServerImplementation$1 run
+Oct 25, 2023 7:18:34 PM ring.server.PeerServerImplementation$1 run
 INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
-Oct 25, 2023 7:18:34 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:34 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>:  Finished Processing command queue.
-Oct 25, 2023 7:18:35 PM peer.server.PeerServerImplementation sendHello
+Oct 25, 2023 7:18:35 PM ring.server.PeerServerImplementation sendHello
 INFO: - PEER SERVER <5000>:  Received hello job request
-Oct 25, 2023 7:18:35 PM peer.client.PeerClient run
-INFO: - PEER CLIENT: Hello message sent to peer server
-Oct 25, 2023 7:18:35 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:35 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 25, 2023 7:18:35 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>: Started Processing command queue.
-Oct 25, 2023 7:18:35 PM peer.server.PeerServerImplementation$1 run
+Oct 25, 2023 7:18:35 PM ring.server.PeerServerImplementation$1 run
 INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
-Oct 25, 2023 7:18:35 PM peer.server.PeerServerImplementation processCommandQueue
+Oct 25, 2023 7:18:35 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 12:47:23 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 26, 2023 12:47:23 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 26, 2023 12:47:37 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 12:47:37 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 12:47:37 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 12:47:37 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 12:47:37 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 26, 2023 12:47:50 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 12:47:50 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 12:47:50 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 12:47:50 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 12:47:50 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 26, 2023 12:47:51 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 12:47:51 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 26, 2023 12:47:51 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 12:47:51 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 12:47:51 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 12:47:59 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 12:47:59 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 26, 2023 12:47:59 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 12:47:59 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 12:47:59 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 12:48:05 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 12:48:05 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to ring server
+Oct 26, 2023 12:48:05 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 12:48:05 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 12:48:05 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 1:05:07 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 26, 2023 1:05:07 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 26, 2023 1:05:18 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 1:05:18 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 1:05:18 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 1:05:18 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 1:05:18 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 1:05:30 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 1:05:30 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 1:05:30 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 1:05:30 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 1:05:30 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 1:05:37 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 1:05:37 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 1:05:37 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 1:05:37 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 1:05:37 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 1:11:39 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 26, 2023 1:11:39 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 26, 2023 1:11:52 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 1:11:52 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 1:11:52 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 1:11:52 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 1:11:52 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 1:12:05 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 1:12:05 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 1:12:05 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 1:12:05 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 1:12:05 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 1:12:10 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 1:12:10 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 1:12:10 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 1:12:10 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 1:12:10 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 1:12:29 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 1:12:29 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 1:12:29 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 1:12:29 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE): Hello 5000,I am server_name
+Oct 26, 2023 1:12:29 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 2:56:25 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 26, 2023 2:56:25 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 26, 2023 3:33:13 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 26, 2023 3:33:13 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 26, 2023 3:33:23 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 3:33:23 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 3:33:23 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 3:33:23 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 3:33:32 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 3:33:32 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 3:33:32 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 3:33:32 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 3:33:35 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 3:33:35 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 3:33:35 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 3:33:35 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 26, 2023 3:33:38 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 26, 2023 3:33:38 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 26, 2023 3:33:38 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 26, 2023 3:33:38 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 27, 2023 3:47:07 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 27, 2023 3:47:07 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 3:47:18 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 27, 2023 3:47:18 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 27, 2023 3:47:18 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 27, 2023 3:47:18 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE) : Greetings peer 5000
+Oct 27, 2023 3:47:18 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 27, 2023 3:47:26 PM ring.server.PeerServerImplementation sendHello
+INFO: - PEER SERVER <5000>:  Received hello job request
+Oct 27, 2023 3:47:26 PM ring.client.PeerClient run
+INFO: - PEER CLIENT: Hello message sent to peer server
+Oct 27, 2023 3:47:26 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 27, 2023 3:47:26 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE) : Greetings peer 5000
+Oct 27, 2023 3:47:26 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 27, 2023 7:10:45 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 27, 2023 7:10:45 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:10:51 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sub) job request
+Oct 27, 2023 7:10:51 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 27, 2023 7:10:51 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:10:51 PM ring.server.PeerServerImplementation$2 run
+INFO: - PEER SERVER (RESPONSE) : 94.64249693168566
+Oct 27, 2023 7:10:51 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 27, 2023 7:11:23 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sub) job request
+Oct 27, 2023 7:11:23 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:11:23 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>: Started Processing command queue.
+Oct 27, 2023 7:11:23 PM ring.server.PeerServerImplementation$2 run
+INFO: - PEER SERVER (RESPONSE) : -141.2402677084342
+Oct 27, 2023 7:11:23 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5000>:  Finished Processing command queue.
+Oct 27, 2023 7:12:08 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (mul) job request
+Oct 27, 2023 7:12:08 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:12:12 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sub) job request
+Oct 27, 2023 7:12:12 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:12:16 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sum) job request
+Oct 27, 2023 7:12:16 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:12:26 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sub) job request
+Oct 27, 2023 7:12:26 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:15:18 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:15:18 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 27, 2023 7:15:35 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (div) job request
+Oct 27, 2023 7:15:35 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+Oct 27, 2023 7:15:39 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sub) job request
+Oct 27, 2023 7:15:39 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:15:43 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sub) job request
+Oct 27, 2023 7:15:43 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:16:01 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sub) job request
+Oct 27, 2023 7:16:01 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:19:03 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 27, 2023 7:19:03 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:08 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (div) job request
+Oct 27, 2023 7:19:08 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+Oct 27, 2023 7:19:25 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 27, 2023 7:19:25 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:26 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sum) job request
+Oct 27, 2023 7:19:26 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:19:29 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (div) job request
+Oct 27, 2023 7:19:29 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+Oct 27, 2023 7:19:43 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5000 ...
+Oct 27, 2023 7:19:43 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:45 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (mul) job request
+Oct 27, 2023 7:19:45 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:19:53 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (div) job request
+Oct 27, 2023 7:19:53 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+Oct 27, 2023 7:19:54 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sum) job request
+Oct 27, 2023 7:19:54 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:20:01 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5000>:  Received algebra (sum) job request
+Oct 27, 2023 7:20:01 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server

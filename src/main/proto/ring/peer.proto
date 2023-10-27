@@ -1,0 +1,15 @@
+package peer;
+option java_package = "com.proto.peer";
+option java_multiple_files = true;
+import "ring/setToken.proto";
+import "ring/hello.proto";
+import "google/protobuf/empty.proto";
+import "ring/algebra.proto";
+
+service PeerService {
+  rpc setToken(SetTokenRequest) returns(google.protobuf.Empty);
+  rpc sendHello(HelloRequest) returns(google.protobuf.Empty);
+  rpc processHello(HelloRequest) returns(HelloResponse);
+  rpc sendAlgebra(AlgebraRequest) returns(google.protobuf.Empty);
+  rpc processAlgebra(AlgebraRequest) returns(AlgebraResponse);
+}

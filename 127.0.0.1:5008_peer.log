@@ -1,0 +1,56 @@
+Oct 27, 2023 7:15:18 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5008 ...
+Oct 27, 2023 7:15:18 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:15:29 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (sum) job request
+Oct 27, 2023 7:15:29 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:15:36 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (sub) job request
+Oct 27, 2023 7:15:36 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+Oct 27, 2023 7:16:01 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (div) job request
+Oct 27, 2023 7:16:01 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+Oct 27, 2023 7:19:03 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5008 ...
+Oct 27, 2023 7:19:03 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:06 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (sum) job request
+Oct 27, 2023 7:19:06 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:19:25 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5008 ...
+Oct 27, 2023 7:19:25 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:43 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Oct 27, 2023 7:19:43 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5008 ...
+Oct 27, 2023 7:19:50 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (mul) job request
+Oct 27, 2023 7:19:50 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:19:52 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (sum) job request
+Oct 27, 2023 7:19:52 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+Oct 27, 2023 7:19:52 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (div) job request
+Oct 27, 2023 7:19:52 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+Oct 27, 2023 7:19:56 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (mul) job request
+Oct 27, 2023 7:19:56 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+Oct 27, 2023 7:19:59 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5008>:  Received algebra (mul) job request
+Oct 27, 2023 7:19:59 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server

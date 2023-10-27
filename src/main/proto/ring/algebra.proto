@@ -1,0 +1,15 @@
+syntax="proto3";
+package peer;
+
+option java_package="com.proto.peer";
+option java_multiple_files=true;
+
+message AlgebraRequest {
+    string operation = 1;
+    double number1 = 2;
+    double number2 = 3;
+}
+
+message AlgebraResponse {
+    double result = 1;
+}

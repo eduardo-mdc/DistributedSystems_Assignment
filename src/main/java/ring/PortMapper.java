@@ -16,7 +16,9 @@ public class PortMapper {
         portMap.put("5000", 5001);
         portMap.put("5001", 5002);
         portMap.put("5002", 5003);
+        portMap.put("5003", 5004);
         portMap.put("5004", 5005);
+        portMap.put("5005", 5006);
         portMap.put("5006", 5007);
         portMap.put("5007", 5008);
         portMap.put("5008", 5000);

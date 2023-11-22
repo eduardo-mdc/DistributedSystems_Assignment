@@ -12,7 +12,7 @@ public class PeerGenerator {
     public static void main(String[] args){
         PortMapper portMapper = new PortMapper();
         List<SocketIdentifier> socketList = portMapper.generateSocketList("127.0.0.1");
-
+        SocketIdentifier startPeer = socketList.get(1);
         SocketIdentifier centralServer = new SocketIdentifier("127.0.0.1", 8000);
 
         new Thread(new CentralServer(centralServer)).start();
@@ -28,8 +28,10 @@ public class PeerGenerator {
             e.printStackTrace();
         }
 
+
+
         //Set token to true in the first peer in the list
-        Requester.setTokenRequest(socketList.get(0), true);
+        Requester.setTokenRequest(startPeer, true);
         System.out.println("Token set to true in peer at port " + socketList.get(0).getPort() + "\n");
     }
 }

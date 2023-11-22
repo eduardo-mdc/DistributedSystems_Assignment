@@ -13,4 +13,12 @@ public class SocketIdentifier {
     public Integer getPort() {
         return port;
     }
+
+    @Override
+    public String toString() {
+        return "SocketIdentifier{" +
+                "host='" + host + '\'' +
+                ", port=" + port +
+                '}';
+    }
 }

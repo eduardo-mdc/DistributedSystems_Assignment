@@ -35,7 +35,7 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
         final boolean newToken = request.getToken();
 
         token = newToken;
-        //logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Got token with value <" + newToken + ">");
+        logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Got token with value <" + newToken + ">");
 
         if (token){
             processCommandQueue();
@@ -49,33 +49,12 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
         responseObserver.onCompleted();
     }
 
-    @Override
-    public void sendHello(HelloRequest request, StreamObserver <Empty> responseObserver) {
-        // Change this to obtain the request value.
-        final String peerName = request.getPeerName();
-
-        // Create a Runnable task to print the peer name.
-        Runnable helloTask = new Runnable() {
-            @Override
-            public void run() {
-                HelloResponse response = Requester.processHelloRequest(centralServer, peerName);
-                logger.info("- PEER SERVER (RESPONSE) : " + response.getGreeting());
-            }
-        };
-        logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Received hello job request");
-
-        // Add the task to the command queue.
-        CommandQueue.offer(helloTask);
-
-        responseObserver.onNext(Empty.getDefaultInstance());
-        responseObserver.onCompleted();
-    }
 
     public void sendAlgebra(AlgebraRequest request, StreamObserver<Empty> responseObserver){
         Runnable algebraTask = new Runnable() {
             @Override
             public void run() {
-                AlgebraResponse response = Requester.processHelloRequest(
+                AlgebraResponse response = Requester.processAlgebraRequest(
                         centralServer,
                         request.getOperation(),
                         request.getNumber1(),

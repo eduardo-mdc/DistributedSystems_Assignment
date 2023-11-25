@@ -1,6 +1,7 @@
 package ring.server;
 import com.proto.peer.*;
 import com.proto.peer.PeerServiceGrpc;
+import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
 
 import java.util.LinkedList;
@@ -31,27 +32,52 @@ public class CentralServerImplementation extends PeerServiceGrpc.PeerServiceImpl
     }
 
     @Override
-    public void processAlgebra(AlgebraRequest request, StreamObserver <AlgebraResponse> responseObserver) {
+    public void processAlgebra(AlgebraRequest request, StreamObserver<AlgebraResponse> responseObserver) {
         String operation = request.getOperation();
         Double number1 = request.getNumber1();
         Double number2 = request.getNumber2();
+        logger.info("- CENTRAL SERVER: Received Algebra Request: <" + number1 + "><" + number2 + "> <" + operation + ">");
 
-        switch (operation){
-            case "add":
-                responseObserver.onNext(AlgebraResponse.newBuilder().setResult(number1 + number2).build());
-                break;
-            case "sub":
-                responseObserver.onNext(AlgebraResponse.newBuilder().setResult(number1 - number2).build());
-                break;
-            case "mul":
-                responseObserver.onNext(AlgebraResponse.newBuilder().setResult(number1 * number2).build());
-                break;
-            case "div":
-                responseObserver.onNext(AlgebraResponse.newBuilder().setResult(number1 / number2).build());
-                break;
+        try {
+            double result = 0.0;
+
+            switch (operation) {
+                case "add":
+                    result = number1 + number2;
+                    break;
+                case "sub":
+                    result = number1 - number2;
+                    break;
+                case "mul":
+                    result = number1 * number2;
+                    break;
+                case "div":
+                    if (number2 != 0) {
+                        result = number1 / number2;
+                    } else {
+                        responseObserver.onError(Status.INVALID_ARGUMENT
+                                .withDescription("Division by zero is not allowed.")
+                                .asRuntimeException());
+                        return;
+                    }
+                    break;
+                default:
+                    responseObserver.onError(Status.INVALID_ARGUMENT
+                            .withDescription("Unsupported operation: " + operation)
+                            .asRuntimeException());
+                    return;
+            }
+
+            responseObserver.onNext(AlgebraResponse.newBuilder().setResult(result).build());
+            responseObserver.onCompleted();
+        } catch (Exception e) {
+            logger.warning("- CENTRAL SERVER: Error processing Algebra Request");
+            responseObserver.onError(Status.INTERNAL
+                    .withDescription("Internal server error")
+                    .asRuntimeException());
         }
-        responseObserver.onCompleted();
     }
+
 
 
 

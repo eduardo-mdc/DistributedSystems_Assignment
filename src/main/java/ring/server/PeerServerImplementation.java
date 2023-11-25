@@ -37,10 +37,8 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
         token = newToken;
         logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Got token with value <" + newToken + ">");
 
-        if (token){
-            processCommandQueue();
-            Requester.setTokenRequest(nextPeer, true);
-        }
+        processCommandQueue();
+        Requester.setTokenRequest(nextPeer, true);
 
         token = false;
 
@@ -64,11 +62,8 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
             }
         };
 
-
+        CommandQueue.add(algebraTask);
         logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Received algebra ("+ request.getOperation()+ ") job request");
-
-        // Add the task to the command queue.
-        CommandQueue.offer(algebraTask);
 
         responseObserver.onNext(Empty.getDefaultInstance());
         responseObserver.onCompleted();
@@ -76,7 +71,6 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
 
     }
 
-    // You can have a method to process the command queue in your class.
     public void processCommandQueue() {
         if (!CommandQueue.isEmpty()) {
             logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">: Started Processing command queue.");

@@ -66,7 +66,7 @@ public class PeerClient implements Runnable{
                         createAlgebraRequest("div",number1,number2);
                         break;
                     case 0:
-                        createAlgebraRequest("sum",number1,number2);
+                        createAlgebraRequest("add",number1,number2);
                         break;
                 }
 

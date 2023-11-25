@@ -55,15 +55,25 @@ public class Requester {
 
     public static AlgebraResponse processAlgebraRequest(SocketIdentifier service, String operation, Double number1, Double number2) {
         ManagedChannel channel = Grpc.createChannel(service);
-        PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
-        AlgebraRequest request = AlgebraRequest.newBuilder()
-                .setOperation(operation)
-                .setNumber1(number1)
-                .setNumber2(number2)
-                .build();
-        AlgebraResponse response = stub.processAlgebra(request);
-        Grpc.shutdown_channel(channel);
-        return response;
-
+        try {
+            System.out.println("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
+            PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
+            AlgebraRequest request = AlgebraRequest.newBuilder()
+                    .setOperation(operation)
+                    .setNumber1(number1)
+                    .setNumber2(number2)
+                    .build();
+            System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+            AlgebraResponse response = stub.processAlgebra(request);
+            System.out.println("CCCCCCCCCCCCCCCCCCCCCCCCCC RESULT : " + response.getResult());
+            return response;
+        } catch (StatusRuntimeException e) {
+            // Print the error and handle it accordingly
+            System.err.println("Error calling processAlgebra: " + e.getStatus());
+            throw e; // or handle the exception as needed
+        } finally {
+            Grpc.shutdown_channel(channel);
+        }
     }
+
 }

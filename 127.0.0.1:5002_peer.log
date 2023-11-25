@@ -6,33 +6,33 @@ INFO: client: endpoint running ...
 Oct 27, 2023 7:15:19 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Oct 27, 2023 7:15:19 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Oct 27, 2023 7:15:19 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5002>: Started Processing command queue.
 Oct 27, 2023 7:15:30 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Oct 27, 2023 7:15:30 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Oct 27, 2023 7:15:45 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Oct 27, 2023 7:15:45 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Oct 27, 2023 7:15:46 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Oct 27, 2023 7:15:46 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Oct 27, 2023 7:15:47 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Oct 27, 2023 7:15:47 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Oct 27, 2023 7:15:51 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Oct 27, 2023 7:15:51 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Oct 27, 2023 7:16:02 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Oct 27, 2023 7:16:02 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Oct 27, 2023 7:19:03 PM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Oct 27, 2023 7:19:03 PM ring.client.PeerClient run
@@ -41,7 +41,7 @@ INFO: client: endpoint running ...
 Oct 27, 2023 7:19:03 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Oct 27, 2023 7:19:03 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Oct 27, 2023 7:19:04 PM ring.server.PeerServerImplementation processCommandQueue
 INFO: - PEER SERVER <5002>: Started Processing command queue.
 Oct 27, 2023 7:19:04 PM ring.server.PeerServerImplementation lambda$sendAlgebra$1
@@ -61,7 +61,7 @@ INFO: client: endpoint running ...
 Oct 27, 2023 7:19:52 PM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Oct 27, 2023 7:19:52 PM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:26:17 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:26:17 AM ring.client.PeerClient run
@@ -75,11 +75,11 @@ INFO: client: endpoint running ...
 Nov 21, 2023 10:29:42 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:29:42 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:29:56 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:29:56 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:30:58 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:30:58 AM ring.client.PeerClient run
@@ -88,11 +88,11 @@ INFO: client: endpoint running ...
 Nov 21, 2023 10:31:22 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:31:22 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:31:25 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:31:25 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:37:33 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:37:33 AM ring.client.PeerClient run
@@ -101,7 +101,7 @@ INFO: client: endpoint running ...
 Nov 21, 2023 10:37:35 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:37:35 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:37:43 AM ring.server.PeerServerImplementation setToken
 INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:37:43 AM ring.server.PeerServerImplementation processCommandQueue
@@ -113,7 +113,7 @@ INFO: - PEER SERVER <5002>:  Finished Processing command queue.
 Nov 21, 2023 10:37:46 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:37:46 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:40:38 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:40:38 AM ring.client.PeerClient run
@@ -122,43 +122,43 @@ INFO: client: endpoint running ...
 Nov 21, 2023 10:40:40 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:40:40 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:40:48 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:40:48 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:41:03 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:41:03 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:41:05 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:41:05 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:41:09 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Nov 21, 2023 10:41:09 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Nov 21, 2023 10:41:30 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:41:30 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:41:44 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:41:44 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:42:03 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:42:03 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:42:08 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:42:08 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:42:10 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:42:10 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:42:14 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:42:14 AM ring.client.PeerClient run
@@ -169,7 +169,7 @@ INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:42:34 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:42:34 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:44:25 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:44:25 AM ring.client.PeerClient run
@@ -185,15 +185,15 @@ INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:45:01 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:45:01 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:45:03 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:45:03 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:45:53 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:45:53 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:45:55 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:45:55 AM ring.client.PeerClient run
@@ -211,63 +211,63 @@ INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:52:18 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:52:18 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:52:27 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:52:27 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:52:49 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:52:49 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:53:07 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:53:07 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:53:08 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:53:08 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:53:09 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:53:09 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:53:09 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Nov 21, 2023 10:53:09 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Nov 21, 2023 10:53:09 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Nov 21, 2023 10:53:09 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Nov 21, 2023 10:53:13 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:53:13 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:53:21 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Nov 21, 2023 10:53:21 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Nov 21, 2023 10:53:22 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Nov 21, 2023 10:53:22 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Nov 21, 2023 10:53:47 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Nov 21, 2023 10:53:47 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Nov 21, 2023 10:54:01 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:54:01 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:54:28 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:54:28 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:54:30 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:54:30 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:57:38 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:57:38 AM ring.client.PeerClient run
@@ -278,15 +278,15 @@ INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:57:41 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:57:41 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:57:54 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:57:54 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:58:03 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:58:03 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:58:24 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:58:24 AM ring.client.PeerClient run
@@ -304,27 +304,27 @@ INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:58:41 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:58:41 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:58:45 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:58:45 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:58:53 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:58:53 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:58:58 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sub) job request
 Nov 21, 2023 10:58:58 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sub) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sub) job request sent to ringPeer server
 Nov 21, 2023 10:59:03 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:59:03 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:59:03 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:59:03 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
 Nov 21, 2023 10:59:06 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:59:06 AM ring.client.PeerClient run
@@ -335,15 +335,15 @@ INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:59:07 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:59:07 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:59:13 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (sum) job request
 Nov 21, 2023 10:59:13 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (sum) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (sum) job request sent to ringPeer server
 Nov 21, 2023 10:59:22 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:59:22 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:59:23 AM ring.server.PeerServer run
 INFO: server: endpoint running at port 5002 ...
 Nov 21, 2023 10:59:23 AM ring.client.PeerClient run
@@ -648,12 +648,1867 @@ INFO: - PEER SERVER <5002>:  Got token with value <true>
 Nov 21, 2023 10:59:32 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:59:32 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:59:43 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (div) job request
 Nov 21, 2023 10:59:43 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (div) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (div) job request sent to ringPeer server
 Nov 21, 2023 10:59:47 AM ring.server.PeerServerImplementation sendAlgebra
 INFO: - PEER SERVER <5002>:  Received algebra (mul) job request
 Nov 21, 2023 10:59:47 AM ring.client.PeerClient createAlgebraRequest
-INFO: - PEER CLIENT: Algebra (mul) job request sent to peer server
+INFO: - PEER CLIENT: Algebra (mul) job request sent to ringPeer server
+Nov 25, 2023 2:03:59 PM ring.server.PeerServer run
+INFO: server: endpoint running at port 5002 ...
+Nov 25, 2023 2:03:59 PM ring.client.PeerClient run
+INFO: client: endpoint running ...
+
+Nov 25, 2023 2:03:59 PM ring.server.PeerServerImplementation sendAlgebra
+INFO: - PEER SERVER <5002>:  Received algebra (add) job request
+Nov 25, 2023 2:03:59 PM ring.client.PeerClient createAlgebraRequest
+INFO: - PEER CLIENT: Algebra (add) job request sent to ringPeer server
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5002>: Started Processing command queue.
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation$1 run
+INFO: - PEER SERVER (RESPONSE) : 947.5447470583864
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation processCommandQueue
+INFO: - PEER SERVER <5002>:  Finished Processing command queue.
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:00 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:01 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:02 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:03 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:04 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:05 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:06 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:07 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:08 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:09 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>
+Nov 25, 2023 2:04:10 PM ring.server.PeerServerImplementation setToken
+INFO: - PEER SERVER <5002>:  Got token with value <true>

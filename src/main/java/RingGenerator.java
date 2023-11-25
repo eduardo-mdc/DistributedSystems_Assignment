@@ -1,25 +1,23 @@
-import ring.Peer;
-import ring.PortMapper;
-import ring.SocketIdentifier;
+import ring.RingPeer;
+import ring.RingPeerMapper;
+import general_utils.SocketIdentifier;
 import ring.central.CentralServer;
-import ring.server.PeerServer;
 import ring.utils.Requester;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class PeerGenerator {
+public class RingGenerator {
     public static void main(String[] args){
-        PortMapper portMapper = new PortMapper();
-        List<SocketIdentifier> socketList = portMapper.generateSocketList("127.0.0.1");
+        RingPeerMapper ringPeerMapper = new RingPeerMapper();
+        List<SocketIdentifier> socketList = ringPeerMapper.generateSocketList("127.0.0.1");
         SocketIdentifier startPeer = socketList.get(1);
         SocketIdentifier centralServer = new SocketIdentifier("127.0.0.1", 8000);
 
         new Thread(new CentralServer(centralServer)).start();
 
         for(SocketIdentifier socketId : socketList){
-            Peer peer = new Peer(socketId.getHost(), socketId.getPort());
-            peer.start();
+            RingPeer ringPeer = new RingPeer(socketId.getHost(), socketId.getPort());
+            ringPeer.start();
         }
 
         try{

@@ -1,4 +1,4 @@
-package ring.utils;
+package general_utils;
 
 import java.util.Random;
 

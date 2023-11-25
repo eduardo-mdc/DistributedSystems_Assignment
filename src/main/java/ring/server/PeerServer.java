@@ -4,7 +4,7 @@ package ring.server;
 import java.util.logging.Logger;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
-import ring.SocketIdentifier;
+import general_utils.SocketIdentifier;
 
 public class PeerServer implements Runnable{
     String host;

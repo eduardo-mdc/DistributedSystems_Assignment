@@ -1,4 +1,4 @@
-package ring;
+package general_utils;
 
 public class SocketIdentifier {
     private String host;

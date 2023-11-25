@@ -1,5 +1,6 @@
 package ring;
 
+import general_utils.SocketIdentifier;
 import ring.client.PeerClient;
 import ring.server.PeerServer;
 
@@ -7,7 +8,7 @@ import java.util.logging.Logger;
 import java.util.logging.FileHandler;
 import java.util.logging.SimpleFormatter;
 
-public class Peer {
+public class RingPeer {
 
     Integer nextPeerPort;
     Logger logger;
@@ -19,11 +20,11 @@ public class Peer {
     SocketIdentifier currentPeerServer;
     SocketIdentifier nextPeerServer;
 
-    public Peer(String hostname, Integer port) {
+    public RingPeer(String hostname, Integer port) {
         centralServer = new SocketIdentifier(centralServerHost, centralServerPort);
         currentPeerServer = new SocketIdentifier(hostname, port);
 
-        PortMapper portMapper = new PortMapper();
+        RingPeerMapper portMapper = new RingPeerMapper();
         nextPeerServer = new SocketIdentifier("127.0.0.1",portMapper.getNext(currentPeerServer.getPort().toString()));
 
         logger = Logger.getLogger("logfile_" + hostname + ":"  + port);

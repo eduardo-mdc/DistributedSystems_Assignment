@@ -76,3 +76,23 @@ Nov 21, 2023 10:59:06 AM ring.central.CentralServer run
 INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
 Nov 21, 2023 10:59:23 AM ring.central.CentralServer run
 INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Nov 25, 2023 2:03:59 PM ring.central.CentralServer run
+INFO: - CENTRAL SERVER: endpoint running at port 8000 ...
+Nov 25, 2023 2:04:00 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <597.9534692185566><349.5912778398298> <add>
+Nov 25, 2023 2:04:00 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <606.5056884350407><304.4473288550629> <div>
+Nov 25, 2023 2:04:00 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <447.23372150831585><848.717485434399> <div>
+Nov 25, 2023 2:04:00 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <466.2055918142657><142.92342816315295> <sub>
+Nov 25, 2023 2:04:02 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <451.02145356680614><560.7766464733659> <sub>
+Nov 25, 2023 2:04:05 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <350.39896011807014><976.0685055095048> <add>
+Nov 25, 2023 2:04:06 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <310.9071968924444><480.1444138658372> <add>
+Nov 25, 2023 2:04:06 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <705.4067962136369><300.86122428816077> <add>
+Nov 25, 2023 2:04:08 PM ring.server.CentralServerImplementation processAlgebra
+INFO: - CENTRAL SERVER: Received Algebra Request: <912.1996775679595><179.33962726840426> <sub>

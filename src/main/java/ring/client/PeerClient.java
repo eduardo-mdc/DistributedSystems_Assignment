@@ -5,8 +5,8 @@ import java.util.logging.Logger;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import ring.SocketIdentifier;
-import ring.utils.PoissonProcess;
+import general_utils.SocketIdentifier;
+import general_utils.PoissonProcess;
 import ring.utils.Requester;
 
 

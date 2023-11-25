@@ -1,10 +1,11 @@
 package ring.utils;
 
 import com.proto.peer.*;
+import general_utils.Grpc;
 import io.grpc.ManagedChannel;
 import io.grpc.Status;
 import io.grpc.StatusRuntimeException;
-import ring.SocketIdentifier;
+import general_utils.SocketIdentifier;
 
 public class Requester {
 
@@ -56,16 +57,13 @@ public class Requester {
     public static AlgebraResponse processAlgebraRequest(SocketIdentifier service, String operation, Double number1, Double number2) {
         ManagedChannel channel = Grpc.createChannel(service);
         try {
-            System.out.println("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
             PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
             AlgebraRequest request = AlgebraRequest.newBuilder()
                     .setOperation(operation)
                     .setNumber1(number1)
                     .setNumber2(number2)
                     .build();
-            System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
             AlgebraResponse response = stub.processAlgebra(request);
-            System.out.println("CCCCCCCCCCCCCCCCCCCCCCCCCC RESULT : " + response.getResult());
             return response;
         } catch (StatusRuntimeException e) {
             // Print the error and handle it accordingly

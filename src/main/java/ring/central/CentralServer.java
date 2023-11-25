@@ -2,9 +2,8 @@ package ring.central;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
-import ring.SocketIdentifier;
+import general_utils.SocketIdentifier;
 import ring.server.CentralServerImplementation;
-import ring.server.PeerServerImplementation;
 
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;

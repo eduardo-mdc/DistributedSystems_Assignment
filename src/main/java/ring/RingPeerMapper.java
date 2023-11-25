@@ -1,14 +1,16 @@
 package ring;
 
+import general_utils.SocketIdentifier;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class PortMapper {
+public class RingPeerMapper {
 
     private Map<String, Integer> portMap;
-    public PortMapper(){
+    public RingPeerMapper(){
         // Create a static port mapping using a HashMap
         this.portMap = new HashMap<>();
 

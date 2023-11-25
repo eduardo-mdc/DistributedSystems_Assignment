@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.logging.Logger;
 
 import com.google.protobuf.Empty;
-import ring.SocketIdentifier;
+import general_utils.SocketIdentifier;
 import ring.utils.Requester;
 
 

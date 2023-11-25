@@ -1,8 +1,7 @@
-package ring.utils;
+package general_utils;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import ring.SocketIdentifier;
 
 import java.util.concurrent.TimeUnit;
 
@@ -22,7 +21,7 @@ public class Grpc {
             try {
                 channel.awaitTermination(timeout, TimeUnit.SECONDS);
             } catch (InterruptedException e) {
-                    // Handle the exception as needed.
+                e.printStackTrace();
             }
         }
     }

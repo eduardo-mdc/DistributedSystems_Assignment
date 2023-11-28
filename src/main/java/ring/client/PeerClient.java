@@ -27,13 +27,6 @@ public class PeerClient implements Runnable{
         this.logger = logger;
     }
 
-
-    private ManagedChannel createChannel(SocketIdentifier server) {
-        return ManagedChannelBuilder.forAddress(server.getHost(), server.getPort())
-                .usePlaintext()
-                .build();
-    }
-
     private void createAlgebraRequest(String operation, Double number1, Double number2){
         Requester.algebraJobRequest(currentPeerServer,operation,number1,number2);
         logger.info("- PEER CLIENT: Algebra (" + operation + ") job request sent to peer server");

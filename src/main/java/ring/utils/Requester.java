@@ -17,7 +17,6 @@ public class Requester {
             SetTokenRequest request = SetTokenRequest.newBuilder()
                     .setToken(tokenValue)
                     .build();
-
             stub.setToken(request);
 
         } catch (StatusRuntimeException e) {

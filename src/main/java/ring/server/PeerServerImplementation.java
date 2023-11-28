@@ -16,7 +16,6 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
     Boolean token = false;
     Queue<Runnable> CommandQueue = new LinkedList<>();
 
-    String serverName = "server_name";
     SocketIdentifier nextPeer;
     SocketIdentifier currentPeerServer;
     SocketIdentifier centralServer;
@@ -35,7 +34,7 @@ public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBas
         final boolean newToken = request.getToken();
 
         token = newToken;
-        logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Got token with value <" + newToken + ">");
+        //logger.info("- PEER SERVER <" + currentPeerServer.getPort() + ">:  Got token with value <" + newToken + ">");
 
         processCommandQueue();
         Requester.setTokenRequest(nextPeer, true);

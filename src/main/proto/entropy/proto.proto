@@ -1,0 +1,12 @@
+package entropy;
+option java_package = "com.proto.entropy";
+option java_multiple_files = true;
+import "google/protobuf/empty.proto";
+import "entropy/push.proto";
+import "entropy/pull.proto";
+
+
+service EntropyPeerService {
+        rpc push(PushRequest) returns(google.protobuf.Empty);
+        rpc pull(google.protobuf.Empty) returns(PullResponse);
+}

@@ -6,7 +6,7 @@ import "ring/hello.proto";
 import "google/protobuf/empty.proto";
 import "ring/algebra.proto";
 
-service PeerService {
+service RingPeerService {
   rpc setToken(SetTokenRequest) returns(google.protobuf.Empty);
   rpc sendHello(HelloRequest) returns(google.protobuf.Empty);
   rpc processHello(HelloRequest) returns(HelloResponse);

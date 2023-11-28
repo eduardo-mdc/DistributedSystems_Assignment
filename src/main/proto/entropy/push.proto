@@ -1,0 +1,9 @@
+syntax="proto3";
+package entropy;
+
+option java_package="com.proto.entropy";
+option java_multiple_files=true;
+
+message PushRequest{
+  bool token=1;
+}

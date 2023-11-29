@@ -1,10 +1,9 @@
-package entropy;
-option java_package = "com.proto.entropy";
+package peer;
+option java_package = "com.proto.peer";
 option java_multiple_files = true;
 import "google/protobuf/empty.proto";
-import "entropy/push.proto";
-import "entropy/pull.proto";
-
+import "peer/push.proto";
+import "peer/pull.proto";
 
 service EntropyPeerService {
         rpc push(PushRequest) returns(google.protobuf.Empty);

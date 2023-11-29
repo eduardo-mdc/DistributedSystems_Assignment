@@ -1,10 +1,10 @@
 package peer;
 option java_package = "com.proto.peer";
 option java_multiple_files = true;
-import "ring/setToken.proto";
-import "ring/hello.proto";
+import "peer/setToken.proto";
+import "peer/hello.proto";
 import "google/protobuf/empty.proto";
-import "ring/algebra.proto";
+import "peer/algebra.proto";
 
 service RingPeerService {
   rpc setToken(SetTokenRequest) returns(google.protobuf.Empty);

@@ -1,6 +1,6 @@
 package ring.server;
 import com.proto.peer.*;
-import com.proto.peer.PeerServiceGrpc;
+import com.proto.peer.RingPeerServiceGrpc;
 import io.grpc.stub.StreamObserver;
 
 import java.util.LinkedList;
@@ -12,7 +12,7 @@ import general_utils.SocketIdentifier;
 import ring.utils.Requester;
 
 
-public class PeerServerImplementation extends PeerServiceGrpc.PeerServiceImplBase {
+public class PeerServerImplementation extends RingPeerServiceGrpc.RingPeerServiceImplBase {
     Boolean token = false;
     Queue<Runnable> CommandQueue = new LinkedList<>();
 

@@ -13,7 +13,7 @@ public class Requester {
         ManagedChannel channel = Grpc.createChannel(service);
 
         try {
-            PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
+            RingPeerServiceGrpc.RingPeerServiceBlockingStub stub = RingPeerServiceGrpc.newBlockingStub(channel);
             SetTokenRequest request = SetTokenRequest.newBuilder()
                     .setToken(tokenValue)
                     .build();
@@ -39,7 +39,7 @@ public class Requester {
 
     public static void algebraJobRequest(SocketIdentifier service, String operation, Double number1, Double number2){
         ManagedChannel channel = Grpc.createChannel(service);
-        PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
+        RingPeerServiceGrpc.RingPeerServiceBlockingStub stub = RingPeerServiceGrpc.newBlockingStub(channel);
         AlgebraRequest request = AlgebraRequest.newBuilder()
                 .setOperation(operation)
                 .setNumber1(number1)
@@ -56,7 +56,7 @@ public class Requester {
     public static AlgebraResponse processAlgebraRequest(SocketIdentifier service, String operation, Double number1, Double number2) {
         ManagedChannel channel = Grpc.createChannel(service);
         try {
-            PeerServiceGrpc.PeerServiceBlockingStub stub = PeerServiceGrpc.newBlockingStub(channel);
+            RingPeerServiceGrpc.RingPeerServiceBlockingStub stub = RingPeerServiceGrpc.newBlockingStub(channel);
             AlgebraRequest request = AlgebraRequest.newBuilder()
                     .setOperation(operation)
                     .setNumber1(number1)

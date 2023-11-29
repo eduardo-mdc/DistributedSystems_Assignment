@@ -1,13 +1,13 @@
 package ring.server;
 import com.proto.peer.*;
-import com.proto.peer.PeerServiceGrpc;
+import com.proto.peer.RingPeerServiceGrpc;
 import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
 
 import java.util.logging.Logger;
 
 
-public class CentralServerImplementation extends PeerServiceGrpc.PeerServiceImplBase {
+public class CentralServerImplementation extends RingPeerServiceGrpc.RingPeerServiceImplBase {
     Logger logger;
 
 

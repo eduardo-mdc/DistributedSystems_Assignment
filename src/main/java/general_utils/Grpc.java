@@ -10,7 +10,7 @@ public class Grpc {
     private static Integer timeout = 5;
 
     public static ManagedChannel createChannel(SocketIdentifier server) {
-        return ManagedChannelBuilder.forAddress(server.getHost(), server.getPort())
+        return ManagedChannelBuilder.forAddress(server.getHostname(), server.getPort())
                 .usePlaintext()
                 .build();
     }

@@ -14,12 +14,12 @@ public class AntiEntropyPeer {
     public AntiEntropyPeer(SocketIdentifier thisPeer, List<SocketIdentifier> neighbours){
         this.thisPeer = thisPeer;
         this.neighbours = neighbours;
-        logger = Logger.getLogger("logfile_" + thisPeer.getHost() + ":"  + thisPeer.getPort());
+        logger = Logger.getLogger("logfile_" + thisPeer.getHostname() + ":"  + thisPeer.getPort());
     }
 
     public void start() {
         try {
-            logger.info("Starting new peer - Host: " + thisPeer.getHost() + ", Port: " + thisPeer.getPort());
+            logger.info("Starting new peer - Host: " + thisPeer.getHostname() + ", Port: " + thisPeer.getPort());
 
             Thread serverThread = new Thread(new PeerServer(thisPeer, neighbours, logger));
             Thread clientThread = new Thread(new PeerClient(thisPeer, neighbours, logger));

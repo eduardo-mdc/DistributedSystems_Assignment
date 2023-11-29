@@ -1,7 +1,11 @@
 package ring;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import general_utils.SocketIdentifier;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,33 +13,36 @@ import java.util.Map;
 
 public class RingPeerMapper {
 
+    private static final String JSON_FILE_PATH = "config/ringMapping.json";
+
     private Map<String, Integer> portMap;
-    public RingPeerMapper(){
-        // Create a static port mapping using a HashMap
+
+    public RingPeerMapper() {
         this.portMap = new HashMap<>();
-
-        // Add service name-port mappings
-        portMap.put("5000", 5001);
-        portMap.put("5001", 5002);
-        portMap.put("5002", 5003);
-        portMap.put("5003", 5004);
-        portMap.put("5004", 5005);
-        portMap.put("5005", 5006);
-        portMap.put("5006", 5007);
-        portMap.put("5007", 5008);
-        portMap.put("5008", 5000);
-
+        loadPortMappingFromJson();
     }
 
-    public List<SocketIdentifier> generateSocketList(String hostname){
+    public List<SocketIdentifier> generateSocketList(String hostname) {
         List<SocketIdentifier> socketList = new ArrayList<>();
-        for(Map.Entry<String, Integer> entry : portMap.entrySet()){
+        for (Map.Entry<String, Integer> entry : portMap.entrySet()) {
             socketList.add(new SocketIdentifier(hostname, Integer.parseInt(entry.getKey())));
         }
         return socketList;
     }
 
-    public Integer getNext(String peerPort){
+    public Integer getNext(Integer peerPort) {
         return portMap.get(peerPort);
+    }
+
+    private void loadPortMappingFromJson() {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            File jsonFile = new File(JSON_FILE_PATH);
+            if (jsonFile.exists()) {
+                portMap = mapper.readValue(jsonFile, new TypeReference<HashMap<String, Integer>>() {});
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

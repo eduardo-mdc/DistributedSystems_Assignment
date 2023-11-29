@@ -22,7 +22,7 @@ public class Requester {
         } catch (StatusRuntimeException e) {
             // Handle gRPC-specific exceptions
             if (e.getStatus().getCode() == Status.Code.UNAVAILABLE) {
-                System.err.println("Error: Server <"+service.getHost() + ":" + service.getPort() +"> is unavailable. Check if the server is running.");
+                System.err.println("Error: Server <"+service.getHostname() + ":" + service.getPort() +"> is unavailable. Check if the server is running.");
             } else {
                 e.printStackTrace();
             }

@@ -1,24 +1,25 @@
 package general_utils;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class SocketIdentifier {
-    private String host;
+    private final String hostname;
     private Integer port;
-    public SocketIdentifier(String host, Integer port) {
-        this.host = host;
+
+    @JsonCreator
+    public SocketIdentifier(
+            @JsonProperty("hostname") String hostname,
+            @JsonProperty("port") Integer port) {
+        this.hostname = hostname;
         this.port = port;
     }
-    public String getHost() {
-        return host;
-    }
-    public Integer getPort() {
-        return port;
+
+    public String getHostname() {
+        return hostname;
     }
 
-    @Override
-    public String toString() {
-        return "SocketIdentifier{" +
-                "host='" + host + '\'' +
-                ", port=" + port +
-                '}';
+    public int getPort() {
+        return port;
     }
 }

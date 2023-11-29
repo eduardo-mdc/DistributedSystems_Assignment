@@ -25,7 +25,7 @@ public class RingPeer {
         currentPeerServer = new SocketIdentifier(hostname, port);
 
         RingPeerMapper portMapper = new RingPeerMapper();
-        nextPeerServer = new SocketIdentifier("127.0.0.1",portMapper.getNext(currentPeerServer.getPort().toString()));
+        nextPeerServer = new SocketIdentifier("127.0.0.1",portMapper.getNext(currentPeerServer.getPort()));
 
         logger = Logger.getLogger("logfile_" + hostname + ":"  + port);
         try {
@@ -40,7 +40,7 @@ public class RingPeer {
 
     public void start(){
         try {
-            System.out.printf("new peer @ host=%s:%s\n", currentPeerServer.getHost(), currentPeerServer.getPort());
+            System.out.printf("new peer @ host=%s:%s\n", currentPeerServer.getHostname(), currentPeerServer.getPort());
             new Thread(new PeerServer(currentPeerServer,nextPeerServer,centralServer,logger)).start();
             new Thread(new PeerClient(currentPeerServer,nextPeerServer,centralServer,logger)).start();
         } catch ( Exception e ) {

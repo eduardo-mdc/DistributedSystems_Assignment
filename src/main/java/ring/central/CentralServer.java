@@ -17,7 +17,7 @@ public class CentralServer implements Runnable{
     Integer port;
 
     public CentralServer(SocketIdentifier server) {
-        hostname = server.getHost();
+        hostname = server.getHostname();
         port = server.getPort();
 
         logger = Logger.getLogger("logfile_" + hostname + ":"  + port);

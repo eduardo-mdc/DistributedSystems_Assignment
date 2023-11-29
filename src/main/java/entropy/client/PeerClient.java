@@ -30,7 +30,7 @@ public class PeerClient implements Runnable{
     }
     @Override
     public void run() {
-        logger.info("<PEER CLIENT>: Client Running at " + thisPeer.getHost() + ":" + thisPeer.getPort());
+        logger.info("<PEER CLIENT>: Client Running at " + thisPeer.getHostname() + ":" + thisPeer.getPort());
         PoissonProcess poisson = new PoissonProcess(lambda, new Random());
         while (true){
             try {

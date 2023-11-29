@@ -16,7 +16,7 @@ public class RingGenerator {
         new Thread(new CentralServer(centralServer)).start();
 
         for(SocketIdentifier socketId : socketList){
-            RingPeer ringPeer = new RingPeer(socketId.getHost(), socketId.getPort());
+            RingPeer ringPeer = new RingPeer(socketId.getHostname(), socketId.getPort());
             ringPeer.start();
         }
 
@@ -25,8 +25,6 @@ public class RingGenerator {
         }catch (Exception e){
             e.printStackTrace();
         }
-
-
 
         //Set token to true in the first peer in the list
         Requester.setTokenRequest(startPeer, true);

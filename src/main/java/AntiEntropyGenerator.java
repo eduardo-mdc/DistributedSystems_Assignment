@@ -13,7 +13,7 @@ public class AntiEntropyGenerator {
             SocketIdentifier currentPeer = new SocketIdentifier("localhost",entry.getKey());
             List<SocketIdentifier> neighborPeers = entry.getValue();
 
-            new AntiEntropyPeer(currentPeer, neighborPeers).start();
+            //new AntiEntropyPeer(currentPeer, neighborPeers).start();
         }
     }
 

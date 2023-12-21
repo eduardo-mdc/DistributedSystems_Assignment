@@ -62,9 +62,6 @@ public class PeerClient implements Runnable{
                         createAlgebraRequest("add",number1,number2);
                         break;
                 }
-
-
-
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

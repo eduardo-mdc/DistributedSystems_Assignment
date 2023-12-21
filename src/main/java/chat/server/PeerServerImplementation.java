@@ -1,2 +1,4 @@
-package chat.server;public class PeerServerImplementation {
+package chat.server;
+
+public class PeerServerImplementation {
 }

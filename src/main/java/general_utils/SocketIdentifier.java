@@ -3,6 +3,8 @@ package general_utils;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.Objects;
+
 public class SocketIdentifier {
     private final String hostname;
     private Integer port;
@@ -27,4 +29,13 @@ public class SocketIdentifier {
     public String toString() {
         return hostname + ":" + port;
     }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SocketIdentifier that = (SocketIdentifier) o;
+        return Objects.equals(hostname, that.hostname) &&
+                Objects.equals(port, that.port);
+}
+
 }

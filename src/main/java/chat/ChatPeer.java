@@ -1,6 +1,7 @@
 package chat;
 
 import chat.client.PeerClient;
+import chat.server.PeerServer;
 import general_utils.SocketIdentifier;
 
 import java.util.List;
@@ -21,12 +22,8 @@ public class ChatPeer {
             logger.info("Starting new peer - Host: " + thisPeer.getHostname() + ", Port: " + thisPeer.getPort());
             Thread clientThread = new Thread(new PeerClient(thisPeer, neighbours, logger));
             clientThread.start();
-
-
-            /*
-                        Thread serverThread = new Thread(new PeerServer(thisPeer, neighbours, logger));
-                        serverThread.start();
-            */
+            Thread serverThread = new Thread(new PeerServer(thisPeer, neighbours, logger));
+            serverThread.start();
             logger.info("Peer started successfully");
         } catch (Exception e) {
             logger.severe("Error starting peer: " + e.getMessage());

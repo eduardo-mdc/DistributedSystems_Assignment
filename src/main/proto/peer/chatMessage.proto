@@ -1,0 +1,18 @@
+syntax = "proto3";
+package peer;
+
+option java_package = "com.proto.peer";
+option java_multiple_files = true;
+
+message MessageRequest {
+  string message = 1;
+  int32 counter = 2;
+  string source_ip = 3;
+  int32 source_port = 4;
+}
+
+message MessageResponse {
+  string response = 1;
+}
+
+

@@ -18,10 +18,7 @@ public class PeerServerImplementation extends EntropyPeerServiceGrpc.EntropyPeer
     SocketIdentifier thisPeer;
     List<SocketIdentifier> neighbours;
     Logger logger;
-
     List<Double> server_values;
-    private Thread numberGeneratorThread;
-
 
     public PeerServerImplementation(SocketIdentifier thisPeer, List<SocketIdentifier> neighbours, Logger logger){
         this.thisPeer = thisPeer;
@@ -41,8 +38,6 @@ public class PeerServerImplementation extends EntropyPeerServiceGrpc.EntropyPeer
             }
         }
 
-        // You can log or perform any other processing here
-
         responseObserver.onNext(Empty.newBuilder().build());
         responseObserver.onCompleted();
     }
@@ -56,9 +51,7 @@ public class PeerServerImplementation extends EntropyPeerServiceGrpc.EntropyPeer
         responseObserver.onCompleted();
     }
 
-    // Replace this method with the actual logic to fetch data from your source
     private List<Double> fetchDataFromSource() {
-        // Example: Fetch data from a database, file, or other source
         return server_values;
     }
 }

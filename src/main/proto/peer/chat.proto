@@ -1,0 +1,9 @@
+package peer;
+option java_package = "com.proto.peer";
+option java_multiple_files = true;
+import "google/protobuf/empty.proto";
+import "peer/chatMessage.proto";
+
+service ChatPeerService {
+  rpc sendMessage(MessageRequest) returns (MessageResponse);
+}

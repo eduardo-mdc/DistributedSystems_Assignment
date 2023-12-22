@@ -7,16 +7,19 @@ import ring.utils.Requester;
 import java.util.List;
 
 public class RingGenerator {
+
+    private static final String peer_host = "localhost";
     public static void main(String[] args){
         RingPeerMapper ringPeerMapper = new RingPeerMapper();
-        List<SocketIdentifier> socketList = ringPeerMapper.generateSocketList("127.0.0.1");
+        List<SocketIdentifier> socketList = ringPeerMapper.generateSocketList(peer_host);
         SocketIdentifier startPeer = socketList.get(1);
-        SocketIdentifier centralServer = new SocketIdentifier("127.0.0.1", 8000);
+        SocketIdentifier centralServer = new SocketIdentifier(peer_host, 8000);
 
         new Thread(new CentralServer(centralServer)).start();
 
         for(SocketIdentifier socketId : socketList){
-            RingPeer ringPeer = new RingPeer(socketId.getHostname(), socketId.getPort());
+            SocketIdentifier nextSocket = new SocketIdentifier(peer_host, ringPeerMapper.portMap.get(socketId.getPort()));
+            RingPeer ringPeer = new RingPeer(socketId,nextSocket);
             ringPeer.start();
         }
 
@@ -26,6 +29,7 @@ public class RingGenerator {
             e.printStackTrace();
         }
 
+        System.out.println("Sending Token to First Peer " + socketList.get(0).getPort() + "\n");
         //Set token to true in the first peer in the list
         Requester.setTokenRequest(startPeer, true);
         System.out.println("Token set to true in peer at port " + socketList.get(0).getPort() + "\n");

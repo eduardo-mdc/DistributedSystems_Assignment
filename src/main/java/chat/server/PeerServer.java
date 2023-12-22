@@ -21,17 +21,16 @@ public class PeerServer implements Runnable{
     @Override
     public void run() {
         try {
-            /*
             Server server = ServerBuilder.forPort(thisPeer.getPort()).addService(new PeerServerImplementation(thisPeer,neighbours,logger)).build();
             server.start();
-            System.out.println("<PEER SERVER>: server started. Listening on port : " + thisPeer.getPort());
+            System.out.println("<PEER SERVER>: server started. Listening on port : " + thisPeer.getPort());;
+
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
                 System.out.println("<PEER SERVER>: Received shutdown request.");
                 server.shutdown();
                 System.out.println("<PEER SERVER>: Server stopped.");
             }));
             server.awaitTermination();
-             */
         } catch (Exception e) {
             e.printStackTrace();
         }

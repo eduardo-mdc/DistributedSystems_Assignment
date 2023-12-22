@@ -24,10 +24,9 @@ public class PeerServer implements Runnable{
     @Override
     public void run() {
         try {
-            logger.info("server: endpoint running at port " + currentPeerServer.getPort() + " ...");
             Server server = ServerBuilder.forPort(currentPeerServer.getPort()).addService(new PeerServerImplementation(currentPeerServer,nextPeer,centralServer,logger)).build();
             server.start();
-            System.out.println("server started. Listening on port : " + currentPeerServer.getPort());
+            logger.info("Server started. Listening on port : " + currentPeerServer.getPort() + ", connected to " + nextPeer);
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
                 System.out.println("Received shutdown request.");
                 server.shutdown();

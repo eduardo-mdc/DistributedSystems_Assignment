@@ -13,19 +13,21 @@ public class RingPeer {
     Integer nextPeerPort;
     Logger logger;
 
-    String centralServerHost = "127.0.0.1";
+    String centralServerHost = "localhost";
     Integer centralServerPort = 8000;
 
     SocketIdentifier centralServer;
     SocketIdentifier currentPeerServer;
     SocketIdentifier nextPeerServer;
 
-    public RingPeer(String hostname, Integer port) {
+    public RingPeer(SocketIdentifier thisPeer, SocketIdentifier connectedPeer) {
+        String hostname = thisPeer.getHostname();
+        Integer port = thisPeer.getPort();
         centralServer = new SocketIdentifier(centralServerHost, centralServerPort);
         currentPeerServer = new SocketIdentifier(hostname, port);
 
-        RingPeerMapper portMapper = new RingPeerMapper();
-        nextPeerServer = new SocketIdentifier("127.0.0.1",portMapper.getNext(currentPeerServer.getPort()));
+
+        nextPeerServer = new SocketIdentifier("127.0.0.1",connectedPeer.getPort());
 
         logger = Logger.getLogger("logfile_" + hostname + ":"  + port);
         try {
@@ -36,6 +38,7 @@ public class RingPeer {
         } catch ( Exception e ) {
             e.printStackTrace();
         }
+
     }
 
     public void start(){

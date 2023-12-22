@@ -15,7 +15,7 @@ public class RingPeerMapper {
 
     private static final String JSON_FILE_PATH = "config/ringMapping.json";
 
-    private Map<String, Integer> portMap;
+    public Map<Integer, Integer> portMap;
 
     public RingPeerMapper() {
         this.portMap = new HashMap<>();
@@ -24,22 +24,19 @@ public class RingPeerMapper {
 
     public List<SocketIdentifier> generateSocketList(String hostname) {
         List<SocketIdentifier> socketList = new ArrayList<>();
-        for (Map.Entry<String, Integer> entry : portMap.entrySet()) {
-            socketList.add(new SocketIdentifier(hostname, Integer.parseInt(entry.getKey())));
+        for (Map.Entry<Integer, Integer> entry : portMap.entrySet()) {
+            socketList.add(new SocketIdentifier(hostname, entry.getKey()));
         }
         return socketList;
     }
 
-    public Integer getNext(Integer peerPort) {
-        return portMap.get(peerPort);
-    }
 
     private void loadPortMappingFromJson() {
         ObjectMapper mapper = new ObjectMapper();
         try {
             File jsonFile = new File(JSON_FILE_PATH);
             if (jsonFile.exists()) {
-                portMap = mapper.readValue(jsonFile, new TypeReference<HashMap<String, Integer>>() {});
+                portMap = mapper.readValue(jsonFile, new TypeReference<HashMap<Integer, Integer>>() {});
             }
         } catch (IOException e) {
             e.printStackTrace();

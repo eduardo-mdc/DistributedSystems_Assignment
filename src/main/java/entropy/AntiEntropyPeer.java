@@ -5,7 +5,9 @@ import entropy.client.PeerClient;
 import entropy.server.PeerServer;
 
 import java.util.List;
+import java.util.logging.FileHandler;
 import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class AntiEntropyPeer {
     Logger logger;
@@ -14,7 +16,15 @@ public class AntiEntropyPeer {
     public AntiEntropyPeer(SocketIdentifier thisPeer, List<SocketIdentifier> neighbours){
         this.thisPeer = thisPeer;
         this.neighbours = neighbours;
-        logger = Logger.getLogger("logfile_" + thisPeer.getHostname() + ":"  + thisPeer.getPort());
+        logger = Logger.getLogger("logfile_" + thisPeer.getHostname() + ":"  + thisPeer.getPort());  logger = Logger.getLogger("logfile_" + thisPeer);
+        try {
+            FileHandler handler = new FileHandler("./" + thisPeer + "_peer.log", true);
+            logger.addHandler(handler);
+            SimpleFormatter formatter = new SimpleFormatter();
+            handler.setFormatter(formatter);
+        } catch ( Exception e ) {
+            e.printStackTrace();
+        }
     }
 
     public void start() {

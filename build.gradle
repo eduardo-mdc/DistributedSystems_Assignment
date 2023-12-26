@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'idea'
     id 'com.google.protobuf' version '0.8.18'
+    id 'application'
 }
 group 'org.example'
 version '1.0-SNAPSHOT'
@@ -37,4 +38,22 @@ dependencies {
 }
 test {
     useJUnitPlatform()
+}
+
+
+// Custom run tasks for different main classes
+
+task runRingGenerator(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'ds.assign.RingGenerator'
+}
+
+task runAntiEntropyGenerator(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'ds.assign.AntiEntropyGenerator'
+}
+
+task runChatGenerator(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'ds.assign.ChatGenerator'
 }

@@ -27,37 +27,6 @@ Verify the installation:
 ```bash
 java -version
 ```
-### 2. Install Gradle
-
-Download the latest Gradle distribution:
-```bash
-wget https://services.gradle.org/distributions/gradle-7.0-bin.zip -P /tmp
-```
-
-Unzip the distribution:
-```bash
- sudo unzip -d /opt/gradle /tmp/gradle-*.zip
-```
-
-Set up environment variables: Add the following lines to `~/.bashrc` or `~/.profile`
-```bash
-export GRADLE_HOME=/opt/gradle/gradle-7.0
-export PATH=${GRADLE_HOME}/bin:${PATH}
-```
-
-Apply the changes: 
-```bash
-source `~/.bashrc`
-```
-Or:
-```bash
-source `~/.profile`
-```
-
-Verify the installation: 
-```bash
-gradle -v
-```    
 
 ## Running the Project
 
